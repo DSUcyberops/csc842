@@ -1,10 +1,8 @@
-# csc842
-Repository for Summer2024 CSC 842 cycles. There will be a new folder for each cycle that contiains the code, a README file, and other supporting information.
-
-Walt  – Replacing Netcat - the Networking Utility Knife
-The Why I am interested in building this tool
-During the previous classes we built C2 client and servers, so, I wanted to continue increasing my knowledge in python networking and build a tool for my toolkit that replaces Netcat in case it is not installed or available in the system.
-Background:
+# Necat Tool– Replacing Netcat - the Networking Utility Knife
+# The Why I am interested in building this tool
+   During the previous classes we built C2 client and servers, so, I wanted to continue increasing my knowledge in python networking and build a tool for my toolkit that replaces Netcat in 
+   case it is not installed or available in the system.
+#Background:
 Netcat is the utility knife of networking, so most system administrators remove it from their systems. Such a useful tool would be awesome asset if an attacker managed to find a way in. With it, you can execute remote commands, open remote shells, pass files back and forth, set up a listener that gives you command line access, among others. This is a great tool to have without having to first burn one of your trojans or backdoors. 
 Three main Tool Points
 1.	Usefulness: This tool can handle multiple tasks such as port scanning, OS fingerprinting, executing remote commands, and setting up remote shell. Due to the lack of time, I only implemented some of the features.
