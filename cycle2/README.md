@@ -31,7 +31,7 @@ Netcat is the utility knife of networking, so most system administrators remove 
    •	Data Transmission: Ensure reliable and secure transmission of data, handling various types of input and output efficiently.
    •	Ease of Use: Design the command-line interface to be user-friendly and similar to the traditional Netcat syntax, making it easy for users to transition.
    •	Extensibility: Write modular code that can be easily extended with additional features or modifications, allowing users to customize the tool as needed.
-Resources
+#Resources
    https://www.instructables.com/Netcat-in-Python/
    https://www.geeksforgeeks.org/practical-uses-of-ncnetcat-command-in-linux/
    https://www.varonis.com/blog/netcat-commands
