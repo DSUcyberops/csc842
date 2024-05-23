@@ -1,7 +1,6 @@
 # NecatTool– Replacing the Networking Utility Knife by Walt
 # Why I'm Interested
-   During the previous classes we built C2 client and servers, so, I wanted to continue increasing my knowledge in python networking and build a tool for my toolkit that replaces Netcat in 
-   case it is not installed or available in the system.
+   During the previous classes, we built C2 clients and servers. I wanted to further enhance my knowledge in Python networking by developing a tool for my toolkit that can serve as a replacement for Netcat when it is not installed or available on the system.
 
 # Background
 Netcat is the utility knife of networking, so most system administrators remove it from their systems. Such a useful tool would be awesome asset if an attacker managed to find a way in. With it, you can execute remote commands, open remote shells, pass files back and forth, set up a listener that gives you command line access, among others. This is a great tool to have without having to first burn one of your trojans or backdoors. 
