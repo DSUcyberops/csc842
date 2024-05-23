@@ -2,7 +2,8 @@
 # The Why I am interested in building this tool
    During the previous classes we built C2 client and servers, so, I wanted to continue increasing my knowledge in python networking and build a tool for my toolkit that replaces Netcat in 
    case it is not installed or available in the system.
-#Background:
+
+# Background:
 Netcat is the utility knife of networking, so most system administrators remove it from their systems. Such a useful tool would be awesome asset if an attacker managed to find a way in. With it, you can execute remote commands, open remote shells, pass files back and forth, set up a listener that gives you command line access, among others. This is a great tool to have without having to first burn one of your trojans or backdoors. 
 # Three main Tool Points
    1.	Usefulness: This tool can handle multiple tasks such as port scanning, OS fingerprinting, executing remote commands, and setting up remote shell. Due to the lack of time, I only          implemented some of the features.
@@ -21,7 +22,8 @@ Netcat is the utility knife of networking, so most system administrators remove 
    4.	User Authentication: Adding authentication mechanisms to restrict access and ensure that only authorized users can connect and execute commands.
    5.	Cross-Platform Compatibility: Testing and ensuring compatibility across various operating systems beyond Linux.
    6.	Better shell communication interaction. For simplicity, commands are buffered, and the user needs to press CRTL-D to display and send the EOF marker.
-#Design Considerations
+
+# Design Considerations
 1. Socket Programming: Use Python's socket library to handle network connections, ensuring robust and reliable data transmission.
 2. Multithreading: Implement multithreading for tasks such as port scanning and handling multiple client connections simultaneously.
 3. Command Execution: Allow the tool to execute shell commands remotely and return the output to the user, similar to Netcat's -e option.
