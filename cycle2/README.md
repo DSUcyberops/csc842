@@ -22,16 +22,16 @@ Netcat is the utility knife of networking, so most system administrators remove 
    5.	Cross-Platform Compatibility: Testing and ensuring compatibility across various operating systems beyond Linux.
    6.	Better shell communication interaction. For simplicity, commands are buffered, and the user needs to press CRTL-D to display and send the EOF marker.
 #Design Considerations
-   •	Socket Programming: Use Python's socket library to handle network connections, ensuring robust and reliable data transmission.
-   •	Multithreading: Implement multithreading for tasks such as port scanning and handling multiple client connections simultaneously.
-   •	Command Execution: Allow the tool to execute shell commands remotely and return the output to the user, similar to Netcat's -e option.
-   •	Port Scanning: Include functionality to scan a range of ports, with the ability to specify both individual ports and port ranges.
-   •	OS Fingerprinting: Implement a feature to gather and transmit detailed information about the operating system of the target machine.
-   •	Command Shell: Provide a command shell mode that allows users to execute commands interactively on the remote machine.
-   •	Data Transmission: Ensure reliable and secure transmission of data, handling various types of input and output efficiently.
-   •	Ease of Use: Design the command-line interface to be user-friendly and similar to the traditional Netcat syntax, making it easy for users to transition.
-   •	Extensibility: Write modular code that can be easily extended with additional features or modifications, allowing users to customize the tool as needed.
+   -Socket Programming: Use Python's socket library to handle network connections, ensuring robust and reliable data transmission.
+   -Multithreading: Implement multithreading for tasks such as port scanning and handling multiple client connections simultaneously.
+   -Command Execution: Allow the tool to execute shell commands remotely and return the output to the user, similar to Netcat's -e option.
+   -Port Scanning: Include functionality to scan a range of ports, with the ability to specify both individual ports and port ranges.
+   -OS Fingerprinting: Implement a feature to gather and transmit detailed information about the operating system of the target machine.
+   -Command Shell: Provide a command shell mode that allows users to execute commands interactively on the remote machine.
+   -Data Transmission: Ensure reliable and secure transmission of data, handling various types of input and output efficiently.
+   -Ease of Use: Design the command-line interface to be user-friendly and similar to the traditional Netcat syntax, making it easy for users to transition.
+   -Extensibility: Write modular code that can be easily extended with additional features or modifications, allowing users to customize the tool as needed.
 #Resources
-   https://www.instructables.com/Netcat-in-Python/
-   https://www.geeksforgeeks.org/practical-uses-of-ncnetcat-command-in-linux/
-   https://www.varonis.com/blog/netcat-commands
+https://www.instructables.com/Netcat-in-Python/
+https://www.geeksforgeeks.org/practical-uses-of-ncnetcat-command-in-linux/
+https://www.varonis.com/blog/netcat-commands
