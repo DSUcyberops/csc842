@@ -1,4 +1,4 @@
-# Necat Tool– Replacing Netcat - the Networking Utility Knife
+# Necat Tool– Replacing Netcat - the Networking Utility Knife by Walt
 # The Why I am interested in building this tool
    During the previous classes we built C2 client and servers, so, I wanted to continue increasing my knowledge in python networking and build a tool for my toolkit that replaces Netcat in 
    case it is not installed or available in the system.
@@ -31,7 +31,7 @@ Netcat is the utility knife of networking, so most system administrators remove 
 7. Ease of Use: Design the command-line interface to be user-friendly and similar to the traditional Netcat syntax, making it easy for users to transition.
 8. Extensibility: Write modular code that can be easily extended with additional features or modifications, allowing users to customize the tool as needed.
 
-#Resources
+Resources
 1. https://www.instructables.com/Netcat-in-Python/
 2. https://www.geeksforgeeks.org/practical-uses-of-ncnetcat-command-in-linux/
 3. https://www.varonis.com/blog/netcat-commands
