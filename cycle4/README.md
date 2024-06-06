@@ -5,7 +5,9 @@
 I have worked in many projects in the past, but mainly working on vulnerabilities, RE, among others. I have never built a keylogger and thought it would be fun to create one and see what it takes to build one.
 
 # Background
-Keylogging, which involves using a hidden program to record keystrokes sequentially, is one of the oldest tactics in cyber attacks and remains in use today with varying degrees of details and implementation. It's still popular among attackers due to its effectiveness in capturing sensitive information like credentials and conversations. In my implementation, I logged the keystrokes to a file and periodically encrypted it or encrypted it upon termination. This way, if the user opened the file, the data would be unreadable unless decrypted.
+Keylogging, which involves using a hidden program to record keystrokes sequentially, is one of the oldest tactics in cyber attacks and remains in use today with varying degrees of details and implementation. It's still popular among attackers due to its effectiveness in capturing sensitive information like credentials and conversations.
+
+This implementation, I logged the keystrokes to a file and periodically encrypted it or encrypted it upon termination. This way, if the user opened the file, the data would be unreadable unless decrypted. Additionally, there is the option to obfuscate the file using pyarmor and make it executable using pyinstaller, which have to be installed to be able to use them.
 
 # Three main Tool Points
 1. Easy to Create:  The primary motivation for this project is to broaden my expertise by creating a keylogger using Python and adding it to my toolbox.
