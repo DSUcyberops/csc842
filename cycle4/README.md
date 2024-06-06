@@ -10,7 +10,7 @@ Keylogging, which involves using a hidden program to record keystrokes sequentia
 # Three main Tool Points
 1. Easy to Create:  The primary motivation for this project is to broaden my expertise by creating a keylogger using Python and adding it to my toolbox.
 2. Usefulness and Safety: Understanding it’s used and APIs in python which is crucial for developing more robust security measures against keyloggers. There are many ways and libraries to create a keylogger. This is just one way. Additionally good to create it if you have small kids and you are worry about their safety on line and need to see their activity.
-3 . Defensive Measures.  Developing this tool allows me to explore and test it’s behavior in my environment which helps protect my systems from such attack. Overall, this is also a fun tool to create!
+3. Defensive Measures.  Developing this tool allows me to explore and test it’s behavior in my environment which helps protect my systems from such attack. Overall, this is also a fun tool to create!
 
 # Requirements
 - A windows 10 machine or Kali Linux
