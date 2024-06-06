@@ -16,9 +16,9 @@ import hashlib
 # Determine the default path to save the log file based on the operating system
 def get_default_path():
     if os.name == 'nt':  # Windows
-        return os.path.join(os.environ['APPDATA'], 'processmanager2.txt')
+        return os.path.join(os.environ['APPDATA'], 'processmanager.txt')
     elif os.name == 'posix':  # Linux
-        return '/root/processmanager2.txt'
+        return '/root/processmanager.txt'
     else:
         raise OSError("Unsupported operating system")
 
