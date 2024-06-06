@@ -8,10 +8,10 @@ I have worked in many projects in the past, but mainly working on vulnerabilitie
 Keylogging, which involves using a hidden program to record keystrokes sequentially, is one of the oldest tactics in cyber attacks and remains in use today with varying degrees of details and implementation. It's still popular among attackers due to its effectiveness in capturing sensitive information like credentials and conversations. In my implementation, I logged the keystrokes to a file and periodically encrypted it or encrypted it upon termination. This way, if the user opened the file, the data would be unreadable unless decrypted.
 
 # Three main Tool Points
-1. Skill Development:
+1. Easy to Create:
 The primary motivation for this project is to broaden my expertise by creating a keylogger using Python and adding it to my toolbox.
-2. Understanding the Mechanics:
-Understanding it’s used and APIs in python which is crucial for developing more robust security measures against keyloggers. There are many ways and libraries to create a kylogger. This is just one way.
+2. Usefullness and safety:
+Understanding it’s used and APIs in python which is crucial for developing more robust security measures against keyloggers. There are many ways and libraries to create a kylogger. This is just one way. Additionally good to create it if yo uhave small kids and you are worry about their safey on line.
 3. Defensive protections
 Developing this tool allows me to explore and test it’s behavior in my environment which helps protect my systems from such attack. Overall, this is also a fun tool to create!
 
