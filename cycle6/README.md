@@ -22,6 +22,7 @@ DNS spoofing allows the attacker to intercept and alter DNS query responses, red
 - Python 3.6 or higher
 - Install scapy python library 
 - Permissions: Root or sudo privileges (to send and sniff network packets)
+- Must be connected to the network to be disrupted
 
 # Future Directions / Areas of Improvement
 - Enhanced Evading Techniques: Incorporate more sophisticated evasion techniques to bypass network security measures such as intrusion detection systems (IDS) and intrusion prevention systems (IPS.
