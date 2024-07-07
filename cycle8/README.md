@@ -1,5 +1,5 @@
 
-# myNetScanner - A Simple network scanner
+# myNetScanR - A Simple network scanner
 
 # Why I am interested in building this tool
 I often wonder at times how many devices are actively connected to my home network, and I don’t’ always have the time to login to my router.  So, for this week, I have developed a simple network scanner tool as it provides a quick, and non-intrusive way to monitor and manage devices connected to my network.  This tool allows me to gain insights into the devices' operating systems, open ports, and connectivity status in my network without needing to access my router directly.
