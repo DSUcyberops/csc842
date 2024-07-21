@@ -1,5 +1,5 @@
 
-# wifDisco - A Wireless Deauth Tool
+# wifiDisco - A Wireless Deauth Tool
 
 # Why I am interested in building this tool
 Learning about wireless technologies in today’s digital age is a Must! With so many IOT devices, ensuring the integrity and security of these networks is a challenge that fascinates me. The opportunity to dive deep into wireless security, understand potential vulnerabilities, and develop tools to address them is both a personal passion and a professional pursuit. This led me to create this tool that leverages the powerful capabilities of Scapy to perform various wireless security tasks, including sniffing Wi-Fi networks and executing Deauthentication (Deauth) attack. How exciting!.
