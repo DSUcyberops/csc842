@@ -20,9 +20,9 @@ Scapy is a powerful Python-based network manipulation tool that allows users to 
 - Scapy: Install the Scapy module using pip install scapy.
 - Root Privileges: The script requires root privileges to execute network sniffing and packet injection.
 - Wireless Adapter. Monitor mode must be enabled in the wireless adapter.
-    sudo airmon-ng
-    sudo airmon-ng check kill
-    sudo airmon-ng start wlan0
+      1. sudo airmon-ng
+      2. sudo airmon-ng check kill
+      3. sudo airmon-ng start wlan0 (name of your adapter)
 
 # Future Directions / Areas of Improvement
 While this tool offers robust functionality, there are several areas where it can be enhanced:
